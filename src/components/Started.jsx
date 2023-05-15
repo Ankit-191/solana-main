@@ -1,5 +1,5 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import buildspace from "../assets/img/webp/buildspace.webp";
 import solanabytes from "../assets/img/webp/solanabytes.webp";
 import scaffoldseries from "../assets/img/webp/scaffoldseries.webp";
@@ -150,6 +150,6 @@ const Started = () => {
       </section>
     </>
   );
-}
+};
 
-export default Started
+export default Started;

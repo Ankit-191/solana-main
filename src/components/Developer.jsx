@@ -37,8 +37,7 @@ const Developer = () => {
             </Col>
             <Col lg={6} className="text-center text-lg-end position-relative">
               <img src={resources} alt="resources" className="w-75" />
-              <div className="hero_Bg h-100 w-100 top-0 end-0 position-absolute">
-              </div>
+              <div className="hero_Bg h-100 w-100 top-0 end-0 position-absolute"></div>
             </Col>
           </Row>
         </Container>
