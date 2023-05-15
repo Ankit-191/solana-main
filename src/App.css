@@ -224,8 +224,11 @@
   vertical-align: 0 !important;
   border: 0 !important;
   content: url("./assets/svg/downarrow.svg") !important;
+  filter: brightness(5);
 }
-
+.dropdown-toggle::after:hover {
+  filter: brightness(5);
+}
 .max_w_390 {
   max-width: 390px;
 }
