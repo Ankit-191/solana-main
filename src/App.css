@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@
   --fs-20: 20px;
   --fs-21: 21px;
   --fs-32: 32px;
-  --fs-35: 35px; 
+  --fs-35: 35px;
   --fs-36: 36px;
   --fs-37: 37px;
   --fs-38: 38px;
@@ -29,13 +29,13 @@
   --clr-020102: #020102;
   --clr-848895: #848895;
   --clr-black: rgba(0, 0, 0, 0.8);
-  --clr-C4C4C4: #C4C4C4;
-  --clr-9945FF: #9945FF;
-  --clr-19161C: #19161C;
-  --clr-14F195: #14F195;
+  --clr-C4C4C4: #c4c4c4;
+  --clr-9945FF: #9945ff;
+  --clr-19161C: #19161c;
+  --clr-14F195: #14f195;
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   :root {
     --fs-11: 11px;
     --fs-12: 12px;
@@ -53,10 +53,10 @@
     --fs-37: 37px;
     --fs-38: 38px;
     --fs-39: 31px;
-    --fs-94: 94px;
+    --fs-94: 55px;
   }
 }
-.bg_14F195{
+.bg_14F195 {
   background-color: var(--clr-14F195);
 }
 .bg_19161C {
@@ -159,7 +159,7 @@
 }
 
 .ff_roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
@@ -181,7 +181,7 @@
   background: none !important;
   border: none !important;
   padding: 0 !important;
-  font-family: 'Helvetica' !important;
+  font-family: "Helvetica" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 17px !important;
@@ -194,7 +194,7 @@
 }
 
 .dropdown-item {
-  font-family: 'Helvetica' !important;
+  font-family: "Helvetica" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 17px !important;
@@ -213,15 +213,17 @@
   margin-top: 10px !important;
   padding: 0 !important;
 }
-
+.line {
+  height: 5px;
+  width: 35px;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 10px;
+}
 .dropdown-toggle::after {
   vertical-align: 0 !important;
   border: 0 !important;
-  content: url('./assets/svg/downarrow.svg') !important;
-}
-
-.lh_96 {
-  line-height: 96px;
+  content: url("./assets/svg/downarrow.svg") !important;
 }
 
 .max_w_390 {
@@ -229,23 +231,37 @@
 }
 
 .add_bg_linear {
-  background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+  background: linear-gradient(260.33deg, #0047ff -13.37%, #00bcd4 109.53%);
 }
 
 .buildbtn {
-  background: #14F195;
+  background: #14f195;
   border: 1px solid #000000;
   border-radius: 24px;
   padding: 10px 21px;
+  transition: all 0.2s linear;
 }
-
+.buildbtn:hover {
+  color: white !important;
+}
 .stackbtn {
   background: #000000;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 24px;
   padding: 10px 20px;
+  color: white !important;
+  transition: all 0.2s linear;
 }
-
+.stackbtn path {
+  transition: all 0.2s linear;
+}
+.stackbtn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.stackbtn:hover path {
+  fill: black;
+}
 .bg_imgdeveloment {
   background-image: url(./assets/img/webp/solanacourse.webp);
   background-repeat: no-repeat;
@@ -256,7 +272,7 @@
 }
 
 .chapters {
-  background: #9945FF;
+  background: #9945ff;
   border-radius: 16px;
   padding: 2px 11px;
 }
@@ -294,15 +310,15 @@
 }
 
 .boxhover:hover .bg_shadow {
-  background: #A962FF;
+  background: #a962ff;
 }
 
 .bg_gotosource {
-  background: linear-gradient(180deg, #19161C 0%, #000000 100%);
+  background: linear-gradient(180deg, #19161c 0%, #000000 100%);
 }
 
 .border_viewall {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 12px 21px;
 }
 
@@ -323,46 +339,81 @@
 .maxw_505 {
   max-width: 505px;
 }
-.email input{
+.email input {
   outline: none;
 }
-.btn_signup{
+.btn_signup {
   padding: 13px 21px;
+  transition: all 0.2s linear;
 }
-::placeholder{
-  font-family: 'Roboto', sans-serif;
+.btn_signup:hover {
+  color: white !important;
+}
+::placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
-.btn_youbtube{
+.btn_youbtube {
   padding: 12px 45px;
   border: 1px solid white;
+  transition: all 0.2s linear;
 }
-.mb_13{
+.btn_youbtube:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.mb_13 {
   margin-bottom: 13px;
 }
-.mb_11{
+.mb_11 {
   margin-bottom: 11px;
 }
-.text_hover:hover{
+.text_hover:hover {
   color: white;
 }
-.icon{
+.icon {
   cursor: pointer;
   transition: all 0.2s linear;
 }
-.crsor svg{
+.crsor svg {
   cursor: pointer;
 }
-.icon svg:hover path{
+.icon svg:hover path {
   fill: white;
 }
-@media (max-width:576px) {
+.hero_Bg {
+  background: rgba(240, 135, 255, 0.3);
+  filter: blur(250px);
+  border-radius: 100px;
+  width: 633px;
+}
+@media (min-width: 576px) {
+  .lh_96 {
+    line-height: 96px;
+  }
+}
+@media (max-width: 576px) {
   .bg_imgdeveloment {
     padding-left: 0px !important;
   }
+  .stackbtn {
+    padding: 10px 14px;
+  }
+  .buildbtn {
+    padding: 10px 14px;
+  }
+  .btn_signup {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .btn_youbtube {
+    padding: 6px 12px;
+  }
 }
-@media (max-width:1024px) {
+@media (max-width: 768px) {
+}
+@media (max-width: 1024px) {
   .w_100 {
     width: 100%;
   }

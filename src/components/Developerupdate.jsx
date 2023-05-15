@@ -8,7 +8,7 @@ const Developerupdate = () => {
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <div className='bg_19161C p-5 h-100 d-flex flex-column justify-content-between'>
+                        <div className='bg_19161C p-2  p-sm-5 h-100 d-flex flex-column justify-content-between'>
                             <div>
                             <p className="ff_Helvetica fw_400 fs_36 text-white mb-4 pb-1">Solana Developer Update</p>
                             <p className="ff_Helvetica fw_400 fs_17 clr_C4C4C4">Sign up to the newsletter and learn about new resources, new commits, new proposals, and more.</p>
@@ -20,12 +20,12 @@ const Developerupdate = () => {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <div className='bg_19161C p-5 h-100 d-flex flex-column justify-content-between'>
+                        <div className='bg_19161C p-2 mt-4 mt-lg-0 p-sm-5  h-100 d-flex flex-column justify-content-between'>
                             <div>
                                 <p className="ff_Helvetica fw_400 fs_36 text-white mb-4 pb-1">Even more resources</p>
                                 <p className="ff_Helvetica fw_400 fs_18 clr_C4C4C4">More videos, more episodes. Discussions between industry leaders in both blockchain and technology, our team, and community developers.</p>
                             </div>
-                            <div className='mt-5 d-flex gap-4'>
+                            <div className='mt-md-5 mt-2 d-flex gap-4'>
                             <button className='ff_roboto fw_400 fs_15 btn_youbtube text-uppercase rounded-pill bg-black text-white'>YouTube <svg className='ms-2' width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1479_1507)">
 <path d="M25.6175 3.84946C25.3334 2.78344 24.4966 1.94401 23.4337 1.65912C21.5076 1.14136 13.7836 1.14136 13.7836 1.14136C13.7836 1.14136 6.05969 1.14136 4.13346 1.65912C3.07076 1.94401 2.23376 2.78344 1.94973 3.84946C1.43359 5.78151 1.43359 9.81259 1.43359 9.81259C1.43359 9.81259 1.43359 13.8437 1.94973 15.7759C2.23376 16.8418 3.07076 17.6812 4.13346 17.9662C6.05969 18.4839 13.7836 18.4839 13.7836 18.4839C13.7836 18.4839 21.5076 18.4839 23.4337 17.9662C24.4966 17.6812 25.3334 16.8418 25.6175 15.7759C26.1336 13.8437 26.1336 9.81259 26.1336 9.81259C26.1336 9.81259 26.1336 5.78151 25.6175 3.84946Z" fill="#ED1D24"/>

@@ -10,8 +10,13 @@ const Navbar = () => {
         <Container>
           <div className="d-flex justify-content-between align-items-center py-3">
             <img src={logo} alt="logo" />
-            <div className="d-flex gap-4">
-              <Dropdown className="d-inline">
+            <div className="d-md-none d-block">
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
+            <div className="d-md-flex d-none gap-4">
+              <Dropdown className="d-inline ">
                 <Dropdown.Toggle id="dropdown-autoclose-true">
                   Learn
                 </Dropdown.Toggle>
@@ -21,7 +26,7 @@ const Navbar = () => {
                   <Dropdown.Item href="#">Menu Item</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <Dropdown className="d-inline mx-2" autoClose="true">
+              <Dropdown className="d-inline  mx-2" autoClose="true">
                 <Dropdown.Toggle id="dropdown-autoclose-true">
                   Build
                 </Dropdown.Toggle>
@@ -31,7 +36,7 @@ const Navbar = () => {
                   <Dropdown.Item href="#">Menu Item</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <Dropdown className="d-inline mx-2" autoClose="true">
+              <Dropdown className="d-inline  mx-2" autoClose="true">
                 <Dropdown.Toggle id="dropdown-autoclose-true">
                   Network
                 </Dropdown.Toggle>
@@ -41,7 +46,7 @@ const Navbar = () => {
                   <Dropdown.Item href="#">Menu Item</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <Dropdown className="d-inline mx-2" autoClose={true}>
+              <Dropdown className="d-inline  mx-2" autoClose={true}>
                 <Dropdown.Toggle id="dropdown-autoclose-true">
                   Community
                 </Dropdown.Toggle>
