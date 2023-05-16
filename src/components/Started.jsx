@@ -48,7 +48,7 @@ const Started = () => {
   ];
   return (
     <>
-      <section className="bg-black">
+      <section className="bg-black pt-4">
         <Container>
           <p className="ff_Helvetica fw_400 fs_38 text-white mb-1">
             Get started.
@@ -68,7 +68,7 @@ const Started = () => {
               Quickstart your Solana development starting from nothing to
               complex programs.
             </p>
-            <svg
+            <svg className="arrow"
               width="27"
               height="26"
               viewBox="0 0 27 26"
@@ -100,7 +100,7 @@ const Started = () => {
               return (
                 <Col lg={4} md={6} key={val.id}>
                   <div
-                    className="p-4 mb-4 br_20  d-flex flex-column justify-content-end"
+                    className="p-4 mb-4 br_20  d-flex flex-column justify-content-end startedbox "
                     style={{
                       backgroundImage: `url(${val.bgimg})`,
                       backgroundSize: "cover",
@@ -114,7 +114,7 @@ const Started = () => {
                       <p className="ff_Helvetica fw_400 fs_18 text-white max_w_182 mb-0">
                         {val.heading}
                       </p>
-                      <svg
+                      <svg className="arrow"
                         width="27"
                         height="26"
                         viewBox="0 0 27 26"

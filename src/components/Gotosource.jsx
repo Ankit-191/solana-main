@@ -96,7 +96,7 @@ const Gotosource = () => {
                 Priced Compute Units: ...
               </p>
               <button className="ff_roboto fw_400 fs_15 text-uppercase text-white bg_none latest_btn rounded-pill mt-5">
-                Latest episode{" "}
+                Latest episode
                 <svg
                   width="25"
                   height="24"

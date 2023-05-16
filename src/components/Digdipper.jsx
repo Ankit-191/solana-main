@@ -71,7 +71,7 @@ const Digdipper = () => {
                       </p>
                     </div>
                     <div className="ms-2 mb-2 ">
-                      <button className="border-0 bg_none ff_Helvetica fw_400 fs_11 text-white ">
+                      <button className="border-0 learnbtn bg_none ff_Helvetica fw_400 fs_11 text-white text-uppercase">
                         Learn more
                         <svg
                           className="ms-2"

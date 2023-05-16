@@ -160,43 +160,6 @@
 .ff_Helvetica {
   font-family: Helvetica, sans-serif;
 }
-
-.btn-primary {
-  background: none !important;
-  border: none !important;
-  padding: 0 !important;
-  font-family: "Helvetica" !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  font-size: 17px !important;
-  color: var(--clr-848895) !important;
-}
-
-.btn-primary:hover {
-  color: white !important;
-  font-weight: 700 !important;
-}
-
-.dropdown-item {
-  font-family: "Helvetica" !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  font-size: 17px !important;
-  color: var(--clr-848895) !important;
-  text-align: center !important;
-  background-color: var(--clr-020102) !important;
-  border-bottom: 1px solid #848895 !important;
-}
-
-.dropdown-item:hover {
-  color: white !important;
-  font-weight: 700 !important;
-}
-
-.dropdown-menu {
-  margin-top: 10px !important;
-  padding: 0 !important;
-}
 .line {
   height: 5px;
   width: 35px;
@@ -204,23 +167,48 @@
   margin-top: 5px;
   border-radius: 10px;
 }
-.dropdown-toggle::after {
-  vertical-align: 0 !important;
-  border: 0 !important;
-  content: url("./assets/svg/downarrow.svg") !important;
-  filter: brightness(5);
-}
-.dropdown-toggle::after:hover {
-  filter: brightness(5);
-}
 .max_w_390 {
   max-width: 390px;
 }
+.nav_item:hover ul {
+  display: block !important;
+}
+.nav_item:hover > a {
+  color: white;
+  font-weight: 700;
+}
+.nav_item:hover svg path {
+  fill: white;
+}
+.nav_item ul li:hover a {
+  color: white;
+  font-weight: 700;
+}
 
+@media (max-width: 768px) {
+  .phone {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    left: -100%;
+    top: 0;
+    z-index: 10;
+    transition: all 0.3s linear;
+  }
+  .z_30 {
+    z-index: 30;
+  }
+  .naV_0 {
+    left: 0;
+  }
+}
 .add_bg_linear {
   background: linear-gradient(260.33deg, #0047ff -13.37%, #00bcd4 109.53%);
 }
-
+.border_14 {
+  border-radius: 14px;
+}
 .buildbtn {
   background: #14f195;
   border: 1px solid #000000;
@@ -257,7 +245,12 @@
   padding-left: 60px;
   padding-top: 80px;
 }
-
+.learnbtn svg {
+  transition: all 0.3s linear;
+}
+.learnbtn:hover svg {
+  transform: rotate(45deg);
+}
 .chapters {
   background: #9945ff;
   border-radius: 16px;
@@ -307,22 +300,45 @@
 .border_viewall {
   border: 1px solid #ffffff;
   padding: 12px 21px;
+  transition: all 0.3s linear;
 }
-
+.border_viewall:hover {
+  transform: translateY(-5px);
+}
+.border_viewall svg {
+  transition: all 0.3s linear;
+}
+.border_viewall:hover svg {
+  transform: rotate(45deg);
+}
 .bg_line {
   border-color: rgba(255, 255, 255, 0.5);
   height: 2px;
 }
-
 .max_w_393 {
   max-width: 393px;
 }
-
 .latest_btn {
   padding: 1px 20px;
   border: 1px solid white;
+  transition: all 0.3s linear;
 }
-
+.latest_btn:hover {
+  transform: translateX(7px);
+}
+.arrow {
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.arrow:hover {
+  transform: translateY(-3px);
+}
+.startedbox{
+  transition: all 0.3s linear;
+}
+.startedbox:hover {
+  border: 1px solid gray;
+}
 .maxw_505 {
   max-width: 505px;
 }
@@ -368,6 +384,9 @@
 }
 .icon svg:hover path {
   fill: white;
+}
+.crsorlogo{
+  cursor: pointer;
 }
 .hero_Bg {
   background: rgba(240, 135, 255, 0.3);

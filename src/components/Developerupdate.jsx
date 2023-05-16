@@ -8,7 +8,7 @@ const Developerupdate = () => {
         <Container>
           <Row>
             <Col lg={6}>
-              <div className="bg_19161C p-2  p-sm-5 h-100 d-flex flex-column justify-content-between">
+              <div className="bg_19161C p-2  p-sm-5 h-100 d-flex flex-column justify-content-between border_14">
                 <div>
                   <p className="ff_Helvetica fw_400 fs_36 text-white mb-4 pb-1">
                     Solana Developer Update
@@ -31,7 +31,7 @@ const Developerupdate = () => {
               </div>
             </Col>
             <Col lg={6}>
-              <div className="bg_19161C p-2 mt-4 mt-lg-0 p-sm-5  h-100 d-flex flex-column justify-content-between">
+              <div className="bg_19161C p-2 mt-4 mt-lg-0 p-sm-5  h-100 d-flex flex-column justify-content-between border_14">
                 <div>
                   <p className="ff_Helvetica fw_400 fs_36 text-white mb-4 pb-1">
                     Even more resources
